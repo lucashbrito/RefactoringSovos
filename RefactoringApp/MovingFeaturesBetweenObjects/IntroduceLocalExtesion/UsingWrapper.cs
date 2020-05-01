@@ -10,7 +10,7 @@ namespace RefactoringApp.MovingFeaturesBetweenObjects.IntroduceLocalExtesion
             var newStart = new DateTime(2020, 01, 01 + 1);
         }
 
-        void ExampleUsingWrapper()
+        void ExampleUsingWrapper() 
         {
             var nextStart = PreviousDate.NextStart;
         }
