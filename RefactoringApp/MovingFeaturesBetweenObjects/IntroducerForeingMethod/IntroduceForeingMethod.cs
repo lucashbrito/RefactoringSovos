@@ -6,12 +6,12 @@
         /// Mechanics
         /// Create a method in the client class that does what you needjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjn                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
         /// </summary>
-        public void Legacy()
+        public void LegacyService()
         {                                                                             
-            var viewModel = new DateViewmModel(2020, 01, 01);
+            var viewModel = new DateViewmModel(2020, 01, 01)
+            {};
 
             /// Do something else.
-
 
             var viewModel1 = new DateViewmModel(2020, 01, 01);
         }
@@ -30,7 +30,7 @@
         public int Month { get; }
         public int Day { get; }
 
-        public DateViewmModel(int year, int month, int day)
+        public  DateViewmModel(int year, int month, int day)
         {
             Year = year;
             Month = month;

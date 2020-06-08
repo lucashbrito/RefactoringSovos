@@ -4,8 +4,8 @@ namespace RefactoringApp.MovingFeaturesBetweenObjects.IntroduceLocalExtesion
 {
     public class UsingWrapper
     {
-        public SpecialDateTime PreviousDate { get; set; }
-        void Example()
+        public Transaction PreviousDate { get; set; }
+        void Service()
         {
             var newStart = new DateTime(2020, 01, 01 + 1);
         }
@@ -17,13 +17,13 @@ namespace RefactoringApp.MovingFeaturesBetweenObjects.IntroduceLocalExtesion
 
     }
 
-    public class SpecialDateTime
+    public class Transaction
     {
         public DateTime Date { get; }
 
         public DateTime NextStart => new DateTime(Date.Year, Date.Month, Date.Day + 1);
 
-        public SpecialDateTime(DateTime date)
+        public Transaction(DateTime date)
         {
             Date = date;
         }

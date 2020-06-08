@@ -5,4 +5,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Making Methods Calls Simpler\Replace parameter with explicit methods\" />
+    <Folder Include="Making Methods Calls Simpler\Parameterize method\" />
+    <Folder Include="Making Methods Calls Simpler\Separate query from modifier\" />
+  </ItemGroup>
+
 </Project>
